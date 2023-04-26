@@ -9,7 +9,7 @@ function App() {
 
   function addNote(newNote) {
     setNotes(prevNotes => {
-      return [...prevNotes, newNote];
+      return [...prevNotes, newNote]; 
     });
   }
 
